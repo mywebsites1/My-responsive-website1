@@ -105,3 +105,64 @@ header{
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+/* first section code  */
+
+.first-section{
+    background-color: #16213e;
+}
+
+.service-head{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding: 50px 0;
+    
+}
+
+.service-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.single-service{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 30px 20px;
+    border-radius: 5px;
+    border: 3px solid green;
+    box-shadow: 5px 5px 10px gray;
+}
+.single-service i{
+    font-size: 40px;
+}
+.single-service h2{
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+
+/* first section responsive code  */
+
+@media only screen and (max-width: 688px) {
+    .service-parent{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 689px) and (max-width: 1099px) {
+    .service-parent{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        width: 100%;
+    }
+}
