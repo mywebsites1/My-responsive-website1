@@ -405,6 +405,46 @@ form p{
     letter-spacing: 3px;
 }
 
+/* seven section code start  */
+
+#seven-section{
+    padding: 100px 0;
+}
+
+#take-care-parent{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.take-care-img{
+    width: 100%;
+}
+.take-care-img img{
+    width: 100%;
+}
+.take-care-text h3{
+    font-size: 30px;
+}
+.take-care-text p{
+    margin: 20px 0;
+    font-weight: bold;
+}
+.take-care-text ul li{
+    list-style-position: inside;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
 
 
 /*  1st brake point responsive code start  */
@@ -485,6 +525,17 @@ form{
 }
 .first-single-match{
     text-align: center;
+}
+
+/* seven section code start  */
+#take-care-parent{
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 30px;
+}
+.take-care-text{
+    margin-bottom: 60px;
 }
 
 }
@@ -574,4 +625,16 @@ form{
         margin-right: 60px;
     }
 
+
+    /* seven section code start  */
+
+    #take-care-parent{
+        display: block;
+        margin-left: 70px;
+        margin-right: 70px;
+        gap: 30px;
+    }
+    .take-care-text{
+        margin-bottom: 70px;
+    }
 }
